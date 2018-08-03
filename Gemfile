@@ -44,6 +44,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem "better_errors"
   gem "binding_of_caller"
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
 end
 
 group :development do
