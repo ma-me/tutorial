@@ -51,5 +51,4 @@ test:
 production:
   <<: *default
   database: tutorial_production
-  username: tutorial
-  password: <%= ENV['TUTORIAL_DATABASE_PASSWORD'] %>
+  port: <%= ENV['TUTORIAL_DATABASE_PORT'] %>
