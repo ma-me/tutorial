@@ -6,7 +6,6 @@ RSpec.describe User, type: :model do
     @user = build(:user)
   end
 
-  # バリデーション
   context 'validate' do
     it 'is valid with name and email' do
       expect(@user).to be_valid
