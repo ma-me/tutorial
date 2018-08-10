@@ -50,5 +50,5 @@ test:
 #
 production:
   <<: *default
-  database: heroku_de7304b1181e444
+  database: <%= ENV['TUTORIAL_DATABASE']
   port: <%= ENV['TUTORIAL_DATABASE_PORT'] %>
