@@ -50,5 +50,5 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['TUTORIAL_DATABASE']
+  database: <%= ENV['TUTORIAL_DATABASE'] %>
   port: <%= ENV['TUTORIAL_DATABASE_PORT'] %>
