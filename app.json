@@ -1,7 +1,7 @@
 {
   "name": "tutorial",
   "scripts": {
-    "postdeploy": "bundle exec rake db:schema:load db:seed db:migrate"
+    "postdeploy": "bundle exec rake db:migrate"
   },
   "env": {
     "CLEARDB_DATABASE_URL": {
