@@ -16,7 +16,7 @@ default: &default
   url: <%= ENV.fetch('CLEARDB_DATABASE_URL', '').sub('mysql://', 'mysql2://') %>
   host: <%= ENV['TUTORIAL_DATABASE_HOST'] || 'localhost' %>
   username: <%= ENV['TUTORIAL_DATABASE_USER'] || 'root' %>
-  password: <%= ENV['TUTORIAL_DATABASE_PASSWORD'] %>
+  password: <%= ENV['TUTORIAL_DATABASE_PASSWORD'] || 'dick' %>
   socket: /tmp/mysql.sock
 
 development:
