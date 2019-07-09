@@ -44,6 +44,9 @@ gem 'bootstrap-sass'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
+# backgroud job
+gem 'sidekiq'
+
 group :development, :test, :docker do
   gem 'rspec_junit_formatter'
 end

@@ -21,5 +21,7 @@
 
 /.env
 
+dump.rdp
+
 # .DS_Store banished
 .DS_Store
