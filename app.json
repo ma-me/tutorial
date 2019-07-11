@@ -33,6 +33,9 @@
     },
     "TUTORIAL_DATABASE_USER": {
       "required": true
+    },
+    "REDIS_URL": {
+      "required": true
     }
   },
   "formation": {

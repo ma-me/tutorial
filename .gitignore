@@ -13,12 +13,14 @@
 !/log/.keep
 !/tmp/.keep
 
+/vendor/bundle
 /node_modules
 /yarn-error.log
 
 .byebug_history
 
 /.env
+dump.rdp
 
 # .DS_Store banished
 .DS_Store

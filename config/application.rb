@@ -15,6 +15,9 @@ module Tutorial
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    # ActiveJob queue adapter
+    config.active_job.queue_adapter = :sidekiq
+
     config.generators do |g|
       g.test_frameword :rspec,
         view_specs: false,
