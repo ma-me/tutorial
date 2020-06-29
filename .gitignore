@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -13,12 +14,29 @@
 !/log/.keep
 !/tmp/.keep
 
+/spec/tmp
+
 /node_modules
 /yarn-error.log
 
 .byebug_history
 
 /.env
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+/public/uploads
 
 # .DS_Store banished
 .DS_Store
